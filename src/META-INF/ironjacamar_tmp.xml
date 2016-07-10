@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ironjacamar xmlns="http://www.jboss.org/ironjacamar/schema"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.jboss.org/ironjacamar/schema
+             http://www.jboss.org/ironjacamar/schema/ironjacamar_1_0.xsd">
+
+    <connection-definitions>
+        <connection-definition
+                enabled="true"
+                class-name="de.heckenmann.jca.ftpconnector.FtpManagedConnectionFactory"
+                jndi-name="java:/ftp/localhost"
+                pool-name="FtpConnectionFactory">
+            <!--            <config-property name="port">${wmq.host.port}</config-property>-->
+
+            <pool>
+                <min-pool-size>0</min-pool-size>
+                <max-pool-size>50</max-pool-size>
+            </pool>
+
+        </connection-definition>
+    </connection-definitions>
+</ironjacamar>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/connector_1_7.xsd" id="Connector_ID"
+           version="1.7">
+    <description></description>
+    <display-name>JCA FTP Connector</display-name>
+    <vendor-name>heckenmann.de</vendor-name>
+    <eis-type></eis-type>
+    <resourceadapter-version>1.0</resourceadapter-version>
+    <resourceadapter>
+
+    </resourceadapter>
+</connector>
