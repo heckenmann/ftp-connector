@@ -2,7 +2,7 @@
 INCOMPLETE
 
 ## Wildfly Subsystem Konfiguration
-`
+```
 <subsystem xmlns="urn:jboss:domain:resource-adapters:4.0">
             <resource-adapters>
                 <resource-adapter id="FtpConnector">
@@ -36,4 +36,4 @@ INCOMPLETE
                 </resource-adapter>
             </resource-adapters>
         </subsystem>
-`
+```
